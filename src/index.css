@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);@import url(https://fonts.googleapis.com/css?family=Mulish:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+body {
+  cursor: default;
+}
+
+@media (max-height: 700px) and (min-width: 700px), (max-width: 360px) {
+  .heroSection {
+    height: auto !important;
+    padding-top: 100px !important;
+  }
+}
+
+::-moz-selection { 
+  color: rgb(218, 218, 218);
+  background: #ffffff3e;
+}
+  
+::selection {
+  color: rgb(218, 218, 218);
+  background: #ffffff3e;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A192F;
+}
+
+::-webkit-scrollbar-thumb {
+  border: 3px solid #0A192F;
+  border-radius: 10px;
+  background-color: #495670;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
