@@ -23,7 +23,7 @@ const Footer = () => {
       </div>
       <div className="text-secondaryText font-mono text-sm leading-4">
         <a
-          href={""}
+          href="https://github.com/Tapesh-1308/tapeshdua"
           target="_blank"
           rel="noopener noreferrer"
           className="p-[10px] hover:text-themeBlue transition-all duration-200"

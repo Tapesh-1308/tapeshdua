@@ -4,7 +4,7 @@ import { IoClose } from "react-icons/io5";
 
 import ButtonLink from "./shared/ButtonLink";
 import Logo from "../assets/logo.svg";
-import Resume from "../assets/Resume-Tapesh.pdf";
+
 import { navLinks } from "../utilities/constants";
 
 import { motion } from "framer-motion";
@@ -65,7 +65,7 @@ const Header = () => {
             </ol>
             <ButtonLink
               content="Resume"
-              url={`.${Resume}`}
+              url="https://drive.google.com/file/d/11nsro2l3Z09Cdg36RCH_BxD11RTFGoH7/view"
               classNameBox="ml-[15px]"
             />
           </div>
@@ -123,7 +123,7 @@ const Header = () => {
           </ol>
           <ButtonLink
             content="Resume"
-            url={`.${Resume}`}
+            url="https://drive.google.com/file/d/11nsro2l3Z09Cdg36RCH_BxD11RTFGoH7/view"
             classNameBox="mt-[15px]"
           />
         </nav>
